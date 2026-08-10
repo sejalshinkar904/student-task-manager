@@ -23,6 +23,7 @@ function addTask() {
             <small>Priority: ${priority}</small>
         </div>
 
+	<button onclick="completeTask(this)">✓</button>	
         <button onclick="removeTask(this)">✖</button>
     `;
 
@@ -39,4 +40,10 @@ function removeTask(button) {
     if (container.children.length === 0) {
         container.innerHTML = '<p class="empty">No tasks added yet.</p>';
     }
+}
+
+function completeTask(button) {
+    const task = button.closest(".task");
+    task.style.opacity = "0.5";
+    task.querySelector("span").style.textDecoration = "line-through";
 }
