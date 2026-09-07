@@ -1,0 +1,12 @@
+{
+  "name": "student-task-manager",
+  "version": "1.0.0",
+  "description": "Student task Management system",
+  "main": "script.js",
+  "scripts": {
+  "build": "node build.js"
+   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
