@@ -4,8 +4,8 @@
   "description": "Student task Management system",
   "main": "script.js",
   "scripts": {
-  "build": "node build.js"
-   },
+    "build": "node build.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
