@@ -34,7 +34,7 @@ describe("Student Task Manager Tests", () => {
 
         const task = document.querySelector(".task");
 
-        expect(task).toBeNull();
+        expect(task).not.toBeNull();
         expect(task.textContent).toContain("Complete Assignment");
         expect(task.textContent).toContain("Priority: High");
     });
